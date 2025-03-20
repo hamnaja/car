@@ -1,0 +1,463 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1741312203095290, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312203097131, "dur": 117453, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312203214877, "dur": 871606, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312204086505, "dur": 14408, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312217888839, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312217889113, "dur": 3086, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312217892201, "dur": 48013, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312217940247, "dur": 2562191, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312220502439, "dur": 951541, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312221453982, "dur": 11677, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312221466094, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1741312220108331, "dur": 369070, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1741312220110463, "dur": 99733, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1741312220456251, "dur": 5515, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1741312220461770, "dur": 15600, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1741312220462735, "dur": 13601, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1741312220483624, "dur": 1462, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1741312220482640, "dur": 2478, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312221466203, "dur": 200, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1741312220561520, "dur":1417, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312220562946, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1741312220562997, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1741312220563017, "dur":204, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1741312220563257, "dur":679, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312220563936, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221428988, "dur":74, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429062, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429075, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429098, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429106, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429109, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429116, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429119, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429127, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429142, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221429164, "dur":1455, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1741312220563653, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220563994, "dur":3950, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220567971, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1741312220567974, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220568036, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1741312220568039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220569086, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1741312220571676, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1741312220571719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220572040, "dur":9711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1741312220581772, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1741312220581936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220581943, "dur":19526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1741312220601489, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1741312220601568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220602181, "dur":17296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1741312220619500, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220619539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220619730, "dur":29629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220649386, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1741312220649409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220649414, "dur":143554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1741312220792995, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220793021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220793360, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220794574, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220794595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220794654, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220795619, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220795638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220795643, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220796718, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220796734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220796740, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220798394, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220798410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220798417, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220799630, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220799646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220799652, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220801345, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220801369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220801375, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220802608, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220802630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220802637, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220804172, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220804187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220804194, "dur":11810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220816024, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220816038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220816062, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220817198, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220817222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220817228, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220818779, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220818806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220818812, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220820410, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220820425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220820431, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220821803, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220821818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220821824, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220823162, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220823175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220823181, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220824386, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220824405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220824410, "dur":24106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220848604, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220848627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220848634, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220850030, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220850044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220850049, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220851234, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220851275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220851280, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220852443, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220852469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220852474, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220853816, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220853845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312220853852, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312220855850, "dur":184904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312221040758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221040766, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312221041900, "dur":157672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312221199576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221199585, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741312221201082, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1741312221201095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221201099, "dur":10934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1741312221212053, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1741312221212067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221212073, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1741312221213201, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1741312221213214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221213219, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1741312221215098, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1741312221215127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221215133, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1741312221216659, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1741312221216680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221216685, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1741312221217635, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1741312221217810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741312221217814, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1741312221218715, "dur":210263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220563898, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220564004, "dur":3962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220567971, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1741312220568031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220572000, "dur":21054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1741312220593078, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1741312220593116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220593490, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1741312220594974, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1741312220595010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220595074, "dur":6735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1741312220601824, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1741312220601851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220602024, "dur":32283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1741312220634328, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741312220634363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312220634368, "dur":565228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741312221199618, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1741312221199634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312221199702, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1741312221200834, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1741312221200849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312221200855, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1741312221202277, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1741312221202312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312221202318, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1741312221206206, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1741312221206420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312221206427, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1741312221207400, "dur":9839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1741312221217242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741312221217247, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1741312221218174, "dur":210809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220563780, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220563997, "dur":4044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220568042, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220568080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220576164, "dur":17048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220593232, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220593267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220593369, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220595056, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220595083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220595089, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220601685, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220601740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220602045, "dur":74521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1741312220676589, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car.exe" }}
+,{ "pid":12345, "tid":3, "ts":1741312220676605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220676610, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car.exe" }}
+,{ "pid":12345, "tid":3, "ts":1741312220678341, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1741312220678375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220678616, "dur":271041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1741312220949682, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220949708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220949714, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220952911, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220952924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220952929, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220955311, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220955327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220955333, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220957471, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220957485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220957490, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220958460, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220958493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220958500, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220962339, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220962353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220962362, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220963359, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220963373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220963377, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220964477, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220964496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220964502, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220966877, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220966891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220966896, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220967972, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220967986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220967991, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220969150, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220969171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220969175, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220972684, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220972698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220972705, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220974104, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220974117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220974123, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220977705, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220977719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220977725, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220979966, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220979980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220979984, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220982726, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220982741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220982748, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220984232, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220984245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220984251, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220985385, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220985399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220985404, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220988655, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220988670, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220988674, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220989960, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220989974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220989978, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220991220, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220991235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220991257, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220994163, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220994177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220994183, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220995479, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220995495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312220995501, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312220997065, "dur":116527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312221113598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312221113606, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312221116045, "dur":311675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312221427724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741312221427732, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741312221428957, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1741312221428958, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220564008, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220564008, "dur":3959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220567970, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1741312220568025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220571571, "dur":10160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1741312220581756, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1741312220581856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220581863, "dur":19591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1741312220601477, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1741312220601547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220601555, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1741312220605125, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1741312220605166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220605231, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1741312220606562, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1741312220606592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220606599, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1741312220608110, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1741312220608136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220608142, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1741312220609535, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1741312220609569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220609576, "dur":16191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1741312220625792, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220625879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220626108, "dur":323573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220949706, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220949721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220949743, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220951125, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220951141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220951147, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220952342, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220952356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220952362, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220956240, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220956254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220956260, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220959115, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220959130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220959135, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220961489, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220961502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220961508, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220962581, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220962594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220962599, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220963506, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220963524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220963528, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220965976, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220965998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220966004, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220967019, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220967033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220967037, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220968125, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220968139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220968143, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220969638, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220969651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220969656, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220973325, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220973426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220973430, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220976522, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220976536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220976542, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220978720, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220978734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220978759, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220979719, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220979733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220979738, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220981272, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220981287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220981294, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220983113, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220983128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220983133, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220984401, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220984415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220984437, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220988439, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220988453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220988460, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220989833, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220989847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220989853, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220991137, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220991151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220991156, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220993107, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220993121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220993127, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220995650, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220995675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312220995679, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312220996859, "dur":69201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221066065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221066072, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221067999, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221068022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221068028, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221069025, "dur":94002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221163031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221163039, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221164172, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221164186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221164192, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221165749, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221165764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221165770, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221167973, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221167988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221167994, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221170121, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221170137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221170144, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221171362, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221171379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221171386, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221172681, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221172696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221172703, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221174058, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221174073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221174080, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221175197, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221175212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221175218, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221176736, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221176751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221176758, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221177715, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221177729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221177735, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221179024, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221179040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221179047, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221180112, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221180148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221180154, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221181633, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221181649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221181655, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221184072, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221184087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221184094, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221186017, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221186033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221186040, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221187597, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221187613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221187620, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221189158, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221189174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221189182, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221190231, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221190246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221190252, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221191341, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221191356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221191362, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221193079, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221193092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221193099, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221194112, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221194126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221194133, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221196726, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221196741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221196752, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221198375, "dur":80879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221279258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741312221279266, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HAMSIGNO/Downloads/car1/car_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741312221280358, "dur":148608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741312221432261, "dur":1691, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1741312221466453, "dur": 659, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1741312221466083, "dur": 1052, "ph": "X", "name": "Write chrome-trace events", "args": {} },
